@@ -1,0 +1,74 @@
+.skills-showcase {
+    width: 100%;
+    
+    position: relative;
+    margin: 8rem 0;
+
+    text-align: center;
+    padding: 1rem;
+    background: rgba(128, 128, 128, 0.096); /* Set the background to grey */
+    color: black; /* Text color will be black */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.skills-heading {
+    font-size: 3rem;
+    color: #FFF;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 blocks in one row */
+    gap: 1.5rem;
+    justify-items: center;
+    padding-bottom: 3rem;
+}
+
+.skill-card {
+    background: burlywood; /* Skill blocks will have burlywood background */
+    padding: 1.2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transform: scale(1);
+    transition: all 0.3s ease;
+    width: 120px; /* Decreased size of the skill card */
+    color: #000; /* Black text for the skill card */
+}
+
+.skill-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.skill-card h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.skill-card:hover {
+    transform: scale(1.1) rotate(5deg); /* Tilt effect on hover */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); /* Bigger shadow */
+}
+
+.skill-card:hover .skill-icon {
+    color: #fff; /* White color when hovered */
+}
+
+@media screen and (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr); /* Three items per row on smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skills-container {
+        grid-template-columns: 1fr; /* One item per row on very small screens */
+    }
+}

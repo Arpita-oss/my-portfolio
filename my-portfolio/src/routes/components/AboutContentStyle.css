@@ -1,4 +1,4 @@
-.about{
+.about {
     width: 100%;
     margin: 3rem 0;
     display: flex;
@@ -6,39 +6,58 @@
     align-items: center;
     flex-wrap: wrap;
     height: 100%;
-
 }
-.about .left{
+
+.about .left {
     text-align: center;
     margin: auto;
     padding: 1rem;
     max-width: 350px;
 }
-.about .left p{
+
+.about .left p {
     margin: 1.2rem 0;
 }
-.about .right{
+
+.about .right {
     max-width: 700px;
 }
-.right .img-container{
+
+.right .img-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     position: relative;
     align-items: center;
     text-align: center;
+    perspective: 1000px; /* Gives the container a 3D space */
 }
-.right .img{
+
+.right .img {
     max-width: 90%;
-    border:1px solid #333;
+    border: 1px solid #333;
+    transition: transform 0.3s ease-out;
 }
-.right .top{
+
+.right .top {
     grid-column: 1 / span 8;
     grid-row: 1;
     padding-top: 20%;
     z-index: 6;
 }
-.right .bottam{
-    grid-column: 4/ -1;
+
+.right .bottom {
+    grid-column: 4 / -1;
     grid-row: 1;
     z-index: 5;
+}
+
+.right .img-stack {
+    transition: transform 0.3s ease-in-out;
+    transform-style: preserve-3d; /* Enable 3D transformation for tilt effect */
+}
+
+/* Apply tilt effect when hovered */
+.right .img-stack:hover {
+    transform: rotateY(15deg) rotateX(15deg);  /* Tilt the image */
+    cursor: pointer;
 }
