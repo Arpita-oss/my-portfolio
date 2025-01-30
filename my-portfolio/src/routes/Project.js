@@ -1,18 +1,19 @@
-import React from 'react'
-import NavBar from './components/Navbar'
-import Footer from './components/Footer'
-import HeroImg2 from './components/HeroImg2'
-import WorkCard from './components/WorkCard'
+import React from 'react';
+import NavBar from './components/Navbar';
+import Footer from './components/Footer';
+import HeroImg2 from './components/HeroImg2';
+import Work from './components/Work';
+import photo4 from './assets/photo4.avif'
 
 const Project = () => {
   return (
     <div>
-     <NavBar/>
-     <HeroImg2 heading="PROJECTS." text="Some of my recent works"/>
-    <WorkCard/>
-     <Footer/>
+      <NavBar />
+      <HeroImg2 heading="PROJECTS." text="Some of my recent works" imgSrc={photo4} />
+      <Work />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;
