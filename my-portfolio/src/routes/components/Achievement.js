@@ -58,7 +58,7 @@ const Achievement = () => {
           <h3>1st position in Research Paper Presentation-
             ICEHAIDS </h3>
           <p>Received recognition for outstanding Research Paper Presentation</p>
-          <a href="https://example.com" target="_blank" rel="noopener noreferrer">Learn More</a>
+          <a href="https://www.linkedin.com/in/arpita-bais-79777626b/" target="_blank" rel="noopener noreferrer">Learn More</a>
         </motion.div>
 
       </div>
