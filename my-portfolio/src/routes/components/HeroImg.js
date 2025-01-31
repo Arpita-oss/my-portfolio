@@ -37,7 +37,7 @@ const HeroImg = () => {
               animate={{ opacity: 1, y: 0 }}  // Fade in and move into position
               transition={{ duration: 0.8, delay: 1 }}  // Delay for smooth entry
             >
-              <Link to="/project" className="btn">Projects</Link>
+              <Link to="/projects" className="btn">Projects</Link>
               <Link to="/contact" className="btn btn-light">Contact</Link>
             </motion.div>
         </div>
