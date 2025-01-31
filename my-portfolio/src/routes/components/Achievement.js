@@ -1,10 +1,10 @@
 import "./AchievementStyle.css";
 import React from 'react';
 import { motion } from 'framer-motion';
-import a1 from "../assets/a1.jpeg"
-import a2 from "../assets/a2.JPG"
-import a3 from "../assets/a3.jpg"
-import a4 from "../assets/a4.jpg"
+import a1 from "../../assets/a1.jpeg"
+import a2 from "../../assets/a2.JPG"
+import a3 from "../../assets/a3.jpg"
+import a4 from "../../assets/a4.jpg"
 
 const Achievement = () => {
   return (

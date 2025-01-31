@@ -1,6 +1,6 @@
 import "./HeroImgStyle.css"
 import React from 'react'
-import IntroImg from "../assets/Intro-Img.jpeg"
+import IntroImg from "../../assets/Intro-Img.jpeg"
 import { Link } from "react-router-dom"
 import { motion } from "framer-motion"  // Import framer motion
 

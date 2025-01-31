@@ -1,8 +1,8 @@
 import "./AboutContentStyle.css"; 
 import React from "react";
 import { motion } from "framer-motion";
-import photo1 from "../assets/photo1.avif";
-import photo2 from "../assets/photo2.avif";
+import photo1 from "../../assets/photo1.avif";
+import photo2 from "../../assets/photo2.avif";
 import { Link } from "react-router-dom";
 import Experience from "./Experience"; // Import Experience Component
 

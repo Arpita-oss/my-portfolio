@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import HeroImg2 from './components/HeroImg2';
 import Work from './components/Work';
 import Achievement from './components/Achievement'; // Import Achievement
-import photo4 from './assets/photo4.avif';
+import photo4 from '../assets/photo4.avif';
 
 const Project = () => {
   return (
