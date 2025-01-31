@@ -48,7 +48,7 @@ const HeroImg = () => {
                <Link to="/projects" className="btn">Projects</Link>
                <button 
                  onClick={handleResumeDownload} 
-                 className="btn"
+                 className="btn btn-light"
                >
                  <FaDownload style={{marginRight: '10px'}} />
                  Resume
