@@ -34,7 +34,7 @@ const Achievement = () => {
           <h3>Hackathon Winner- Hack4Heritage</h3>
           <p>Won First prize for a 24-hour online hackathon, for
           creating a full-stack app on biodiversity and heritage..</p>
-          <a href="https://www.bhaskar.com/local/mp/bhopal/news/samadhaan-10-hackathon-concludes-at-systech-bhopal-134010709.html?_branch_match_id=1411583758117839822&utm_campaign=134010709&utm_medium=sharing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT0nMzMvM1kvKSCzOTizSS87P1Xdxci8rLgxP9%2FVPsq8rSk1LLSrKzEuPTyrKLy9OLbJ1TUlPBQAz6kzbPgAAAA%3D%3D" target="_blank" rel="noopener noreferrer">Learn More</a>
+          <a href="https://www.instagram.com/p/C7mVlyVyDkI/?igsh=dWZlcTk5Y3h4bjJq" target="_blank" rel="noopener noreferrer">Learn More</a>
         </motion.div>
         
         <motion.div
