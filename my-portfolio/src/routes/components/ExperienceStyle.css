@@ -1,0 +1,47 @@
+/* Experience Section */
+.experience {
+    text-align: center;
+    padding: 3rem 0;
+    color: #fff;
+}
+
+.experience h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.experience-card {
+    background: rgba(47, 44, 44, 0.502);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    max-width: 300px;
+    text-align: center;
+}
+
+.experience-card h3 {
+    font-size: 1.5rem;
+    color: burlywood;
+    margin-bottom: 1rem;
+}
+
+.experience-card p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* Hover effect */
+.experience-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}

@@ -1,5 +1,6 @@
 import "./FooterStyle.css"
 import React from 'react'
+import { Link } from "react-router-dom"
 import {FaHome, FaPhone , FaMailBulk,  FaLinkedin, FaGithub} from "react-icons/fa"
 
 const Footer = () => {
@@ -36,8 +37,13 @@ const Footer = () => {
                     I enojoy solving real word problems using my methods , skills and techniques.
                 </p>
                 <div className="social">
+                <Link to = {"https://github.com/Arpita-oss"}>
                 <FaGithub size={30} style={{color:"#fff" , marginRight:"1rem"}} /> 
+                </Link>
+                <Link to ={"https://www.linkedin.com/in/arpita-bais-79777626b/"}>
                 <FaLinkedin size={30} style={{color:"#fff" , marginRight:"1rem"}} /> 
+                </Link>
+                
                 </div>
             </div>
         </div>  
